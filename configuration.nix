@@ -92,26 +92,26 @@
     description = "diego";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      pkgs.brave
-      pkgs.sublime4
-      pkgs.vscode
-      pkgs.docker_26
-      pkgs.nodejs_22
-      pkgs.bun
-      pkgs.haruna
-      pkgs.qview
-      pkgs.htop
-      pkgs.telegram-desktop
-      pkgs.cpu-x
-      pkgs.gparted
-      pkgs.obsidian
-      pkgs.krita
-      pkgs.kdePackages.kdenlive
-      pkgs.handbrake
-      #pkgs.obs-studio
-      pkgs.neofetch
-      pkgs.gnome.gnome-boxes
-      pkgs.gnome.gnome-calculator
+      brave
+      sublime4
+      vscode
+      docker_26
+      nodejs_22
+      bun
+      haruna
+      qview
+      htop
+      telegram-desktop
+      cpu-x
+      gparted
+      obsidian
+      krita
+      kdePackages.kdenlive
+      handbrake
+      obs-studio
+      neofetch
+      gnome.gnome-boxes
+      gnome.gnome-calculator
     ];
   };
 
